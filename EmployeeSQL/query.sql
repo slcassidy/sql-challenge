@@ -7,7 +7,7 @@ from employee b
 left join salaries a on b.emp_no = a.emp_no
 
 --2. List employees who were hired in 1986.
-select first_name, last_name, hire_date, 
+select first_name, last_name, hire_date 
 from employee
 where EXTRACT(YEAR FROM hire_date) = 1986
 
